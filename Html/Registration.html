@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+          Registration Form
+        </div>
+        <form class="form" action="index.php" method="post">
+          <div class="input_field">
+            <label>First Name</label>
+              <input type="text" class="input" name="fName">
+          </div>
+          <div class="input_field">
+            <label>Last Name</label>
+              <input type="text" class="input" name="lName">
+          </div>
+          <div class="form">
+            <div class="input_field">
+              <label>Password</label>
+                <input type="password" class="input" name="password">
+            </div>
+            <div class="input_field">
+              <label>Confirm password</label>
+                <input type="password" class="input" name="cPassword">
+            </div>
+            <div class="form">
+                <div class="input_field">
+                  <label>Gender</label>
+                    <div class="custom_select">
+                        <select name="gender">
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                  <label>Email</label>
+                    <input type="text" class="input" name="email">
+                </div>
+                <div class="input_field">
+                    <label>Phone</label>
+                      <input type="text" class="input" name="phone">
+                  </div>
+                  <div class="input_field">
+                    <label>Address</label>
+                      <textarea class="textarea" name="address"></textarea>
+                  </div>
+                  <div class="input_field terms">
+                    <label class="check">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>Agreed to terms and conditions</p>
+                  </div>
+          <div class="input_field">
+              <input type="submit" class="btn" value="Register">
+          </div>
+        </form>
+      </div> 
+</body>
+</html>

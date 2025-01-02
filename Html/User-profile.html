@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER PROFILE</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/7877f9915d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesProfile.css">
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span><img src="../assets/bed-outline.svg" width="40px" height="35px" alt=""></span> <span>City Hostels</span>
+            </h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="user_dashboard.html"><span ><ion-icon name="home-outline"></ion-icon></span>
+                    <span>Home</span></a>
+                  </li>
+                  <li>
+                    <a href="User-profile.html" class="active"><span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span >Profile</span></a>
+                  </li>
+                  <li>
+                    <a href="user-accomodation.html"><span class="icon"><ion-icon name="business-outline"></ion-icon></span>
+                    <span >Accomodation</span></a>
+                  </li>
+                  <li>
+                    <a href="user-payments.html"><span class="icon"><ion-icon name="cash-outline"></ion-icon></span>
+                    <span >Payments</span></a>
+                  </li>
+                  <li>
+                    <a href="user-aboutPage.html"><span class="icon"><ion-icon name="clipboard-outline"></ion-icon></span>
+                    <span >About</span></a>
+                  </li>
+                  <li>
+                    <a href="user-notification.html"><span class="icon"><ion-icon name="notifications-outline"></ion-icon></span>
+                    <span >Notifications</span></a>
+                  </li>
+                  <li>
+                    <a href="user-settings.html"><span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span >Settings</span></a>
+                  </li>
+                  <li>
+                    <a href="index.html"><span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span >Logout</span></a>
+                  </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header> 
+            <h2>
+                <label for="nav-toggle">
+                     <span class="bars"><ion-icon name="menu-outline"></ion-icon></span>
+                </label>
+                
+                Profile
+            </h2>
+
+            <div class="user-wrapper">
+                <img src="../assets/student1.jpg" width="40px" height="40px" alt="">
+              <div>
+                 <h4>Islam S. Mkana</h4>
+                 <small>UDSM Student</small>
+              </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="user-prof-pic">
+                    <img src="../assets/student1.jpg" width="200px" height="200px" alt="">
+                  <div class="prof-btn">
+                    <div>
+                        <button class="prof-btn1" name="pic-btn"><span><ion-icon name="person-add-outline"></ion-icon></span> Edit Photo<span></span></button>
+                      </div>
+                      <div>
+                        <button class="prof-btn1" name="delPic-btn"><span><ion-icon name="trash-bin-outline"></ion-icon></span> Remove Photo<span></span></button>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="recent-grid">
+                    <div class="hostels">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Personal Details</h3>
+                                <button name="prof-btn">Edit<span class="dash-btn">
+                                </span></button>
+                             </div>
+                              <div class="card-body">
+                                <div class="table-responsive">
+                                    <table width="100%">
+                                        <tbody>
+                                            <div class="thead">
+                                                <tr>
+                                                    <td>
+                                                        <span class="status green"></span>
+                                                        First Name
+                                                    </td>
+                                                    <td>Islam</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="status purple"></span>
+                                                        Last Name
+                                                    </td>
+                                                    <td>Mkana</td>   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="status blue"></span>
+                                                        Gender
+                                                    </td>
+                                                    <td>Male</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="status red"></span>
+                                                        Occupation
+                                                    </td>
+                                                    <td>Student (UDSM)</td>   
+                                                </tr> 
+                                                <tr>
+                                                    <td>
+                                                        <span class="status pink"></span>
+                                                        Email
+                                                    </td>
+                                                    <td>mkanaislam@gmail.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="status orange"></span>
+                                                        Phone
+                                                    </td>
+                                                    <td>0755384014</td>   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="status yellow"></span>
+                                                        Registration Date
+                                                    </td>
+                                                    <td>10-09-2022</td>   
+                                                </tr>
+                                               </div> 
+                                        </tbody>
+                                    </table>        
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
