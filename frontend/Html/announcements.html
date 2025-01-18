@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMINISTRATOR DASHBOARD</title>
+    <title>ANNOUNCEMENTS</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://kit.fontawesome.com/7877f9915d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="stylesEmployees.css">
+    <link rel="stylesheet" href="../styles/stylesAnnouncements.css">
 </head>
 <body>
 
     <input type="checkbox" id="nav-toggle">
     <div class="sidebar">
         <div class="sidebar-brand">
-            <h2><span><ion-icon name="home-outline"></ion-icon></span> <span>City Hostels</span>
+            <h2><span><img src="../assets/bed-outline.svg" width="40px" height="35px" alt=""></span> <span>City Hostels</span>
             </h2>
         </div>
 
@@ -34,7 +34,7 @@
                     <span > Hostels</span></a>
                   </li>
                   <li>
-                    <a href="employees.html" class="active"><span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                    <a href="employees.html"><span class="icon"><ion-icon name="people-outline"></ion-icon></span>
                     <span >Employees</span></a>
                   </li>
                   <li>
@@ -42,7 +42,7 @@
                     <span >income</span></a>
                   </li>
                   <li>
-                    <a href="announcements.html"><span class="icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                    <a href="announcements.html" class="active"><span class="icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
                     <span >Announcements</span></a>
                   </li>
                   <li>
@@ -63,7 +63,7 @@
                      <span class="bars"><ion-icon name="menu-outline"></ion-icon></span>
                 </label>
                 
-                Employees
+                Announcements
             </h2>
             <div class="user-wrapper">
                 <img src="../assets/Sleiz.jpg" width="40px" height="40px" alt="">
@@ -76,89 +76,65 @@
 
         <main>
             <div class="cards">
+                </div>
                 <div class="recent-grid">
                     <div class="hostels">
                         <div class="card">
                             <div class="card-header">
-                                <h3>Employees</h3>
+                                <h3>Announcements</h3>
                                 <button>See all<span class="dash-btn">
                                 </span></button>
                              </div>
                               <div class="card-body">
-                                <div class="table-respnsive">
+                                <div class="table-responsive">
                                     <table width="100%">
                                         <thead>
                                          <tr>
                                              <td>Name</td>
+                                             <td>content</td>
                                              <td>Rank</td>
-                                             <td>Post</td>
                                          </tr>
                                         </thead>
                                         <tbody>
                                          <tr>
-                                             <td>Mr Shomary</td>
-                                             <td>Warden</td>
-                                             <td>Fort-Totten</td>
+                                             <td>Mr Litius</td>
+                                             <td>Inter-Blocks competition timetable will be announced soon</td>
+                                             <td>
+                                                 <span class="status purple"></span>
+                                                 sports-master
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                             <td>Mdm Fiona</td>
+                                             <td>Students with panding payments are reminded to pay within this week</td>
+                                             <td>
+                                                 <span class="status pink"></span>
+                                                 Dean
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                             <td>Dct Mongate</td>
+                                             <td>Every dweller is reminded to take of his/her block's properties</td>
+                                             <td>
+                                                 <span class="status orange"></span>
+                                                Warden-pentagon
+                                             </td>
                                          </tr>
                                          <tr>
                                             <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mr Shomary</td>
-                                            <td>Warden</td>
-                                            <td>Fort-Totten</td>
+                                            <td>The Clean-Block-Winner has not been found yet, keep up guys</td>
+                                            <td>
+                                                <span class="status green"></span>
+                                               Warden-Fort-Totten
+                                            </td>
                                         </tr>
                                         </tbody>
                                      </table>
                                 </div>
                               </div>
                         </div>
-                    </div>
-                            </div>
-                         </div>
-                    </div>
+                    </div>             
+                   
                 </div>
             </div>
         </main>
